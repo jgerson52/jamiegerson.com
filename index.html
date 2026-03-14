@@ -3,15 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jamie Gerson</title>
+  <title>Jamie Gerson — St. Petersburg, FL</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       background: #ffffff;
       color: #111111;
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       height: 100%;
+      .card {
+  animation: fadein 1.2s ease-in-out;
+}
+
+@keyframes fadein {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
     }
 
     body {
