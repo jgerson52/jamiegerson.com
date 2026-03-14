@@ -13,27 +13,52 @@
       font-family: Arial, sans-serif;
       height: 100%;
     }
+
     body {
       display: flex;
       align-items: center;
       justify-content: center;
     }
+
     .card {
       text-align: center;
       line-height: 1.8;
       font-size: 22px;
     }
+
     .name {
       font-size: 30px;
       font-weight: 600;
       margin-bottom: 12px;
     }
+
     a {
       color: #111111;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
+    }
+
+    .socials {
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+    }
+
+    .socials a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: #111111;
+      text-decoration: none;
+    }
+
+    .socials a:hover {
+      opacity: 0.65;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -42,6 +67,22 @@
     <div class="name">Jamie Gerson</div>
     <div><a href="mailto:jamie.gerson@gmail.com">jamie.gerson@gmail.com</a></div>
     <div><a href="tel:+12022363978">(202) 236-3978</a></div>
+
+    <div class="socials">
+      <a href="https://www.instagram.com/jamieisawesomee" target="_blank" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37a4 4 0 1 1-1.37-1.37 4 4 0 0 1 1.37 1.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </a>
+
+      <a href="https://www.linkedin.com/in/jamesgerson/" target="_blank" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+          <path d="M4.98 3.5C4.98 4.88 3.86 6 2.48 6S0 4.88 0 3.5 1.12 1 2.48 1s2.5 1.12 2.5 2.5zM.5 8h4V24h-4V8zm7 0h3.83v2.19h.05c.53-1.01 1.84-2.19 3.79-2.19 4.05 0 4.8 2.67 4.8 6.14V24h-4v-7.89c0-1.88-.03-4.3-2.62-4.3-2.63 0-3.03 2.05-3.03 4.17V24h-4V8z"/>
+        </svg>
+      </a>
+    </div>
   </div>
 </body>
 </html>
